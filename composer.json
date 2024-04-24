@@ -1,0 +1,20 @@
+{
+    "name": "magebiz-solutions/elastic-auto-complete",
+    "description": "Simple Elastic Auto Complete by Magebiz",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "MIT"
+    ],
+    "require": {
+        "magento/module-elasticsearch": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Magebiz\\ElasticAutoComplete\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+  }

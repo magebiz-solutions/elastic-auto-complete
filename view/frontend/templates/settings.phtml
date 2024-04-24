@@ -1,0 +1,4 @@
+<?php
+$viewModel = $this->getData('view_model')->isEnabled();
+?>
+<script>window.searchAutocomplete={enable: <?= $viewModel == 1 ?>}</script>
